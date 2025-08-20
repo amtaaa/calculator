@@ -53,6 +53,7 @@ body {
     align-items: center;
     flex: 1;
     margin: 4px;
+    cursor: pointer;
 }
 
 #operations div {
@@ -78,20 +79,17 @@ body {
     {
     display: flex;
     flex: 1;
-    /*    gap: 4px;*/
 }
 
 #operands-and-equal {
     display: flex;
     flex: 4;
-    /*    gap: 4px;*/
 }
 
 #operands {
     flex: 3;
     display: flex;
     flex-direction: column;
-    /*    gap: 4px;*/
 }
 
 #equal {
@@ -102,6 +100,7 @@ body {
     background-color: #ac8cff;
     border-radius: 999px;
     color: #ffffff;
+    cursor: pointer;
 }
 
 #equal:hover{
