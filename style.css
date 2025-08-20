@@ -1,11 +1,11 @@
 body {
-    background-color: #ffd9a4;
+    background-color: #e0d4fe;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-        color: #677786;
-        font-family: "roboto";
+    color: #677786;
+    font-family: "roboto";
 }
 
 #calculator {
@@ -14,10 +14,10 @@ body {
     width: 300px;
     border-radius: 20px;
     overflow: hidden;
+    background-color: #ffffff;
 }
 
 #screen {
-    background-color: #ffffff;
     height: 120px;
     display: flex;
     flex-direction: column;
@@ -33,16 +33,58 @@ body {
 #buttons {
     display: flex;
     flex-direction: column;
+    height: 360px;
+    margin: 12px;
+    font-size: 25px;
 }
 
 #operations {
     display: flex;
+    flex: 1;
 }
 
-#operands div /*rows*/ {
+#operations div,
+#operands div div {
+    border-radius: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 4px;
+}
+
+#operations div {
+    background-color: #d3dde5;
+}
+
+#operands div div {
+    background-color: #f0f0f1;
+}
+
+#operands div
+
+/*rows*/
+    {
+    display: flex;
+    flex: 1;
 }
 
 #operands-and-equal {
     display: flex;
+    flex: 4;
+}
+
+#operands {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+#equal {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ac8cff;
+    border-radius: 999px;
 }
