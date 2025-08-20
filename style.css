@@ -59,8 +59,18 @@ body {
     background-color: #d3dde5;
 }
 
+#operations div:hover {
+    background-color: #677786;
+    color: #d3dde5;
+}
+
 #operands div div {
     background-color: #f0f0f1;
+}
+
+#operands div div:hover {
+    background-color: #677786;
+    color: #f0f0f1;
 }
 
 #operands div
@@ -91,4 +101,9 @@ body {
     align-items: center;
     background-color: #ac8cff;
     border-radius: 999px;
+    color: #ffffff;
+}
+
+#equal:hover{
+    background-color: #4a3c6c;
 }
