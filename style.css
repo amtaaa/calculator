@@ -1,0 +1,48 @@
+body {
+    background-color: #ffd9a4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        color: #677786;
+        font-family: "roboto";
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#screen {
+    background-color: #ffffff;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#displayed-text {
+    font-size: 60px;
+    text-align: right;
+    margin: 12px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+#operations {
+    display: flex;
+}
+
+#operands div /*rows*/ {
+    display: flex;
+}
+
+#operands-and-equal {
+    display: flex;
+}
